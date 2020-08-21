@@ -9,7 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/if4zbp7ur9cfacy/trained_model.pkl?dl=0'
+export_file_url = 'https://www.dropbox.com/s/if4zbp7ur9cfacy/trained_model.pkl?dl=1'
 export_file_name = 'trained_model.pkl'
 
 classes = ['c0', 'c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9']
